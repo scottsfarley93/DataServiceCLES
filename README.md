@@ -26,7 +26,7 @@ That's a theme for another CLES, or Qunying's Geography 576. For now, you can us
     "pg-promise": "latest",
   }
   ```
-  
+
   This installs the following libraries:
 
   - ```express```: Web framework
@@ -92,7 +92,8 @@ That's a theme for another CLES, or Qunying's Geography 576. For now, you can us
 
 3. Write a SQL query, using the value other the parameter(s) given by the user. The SQL here is arbitrary -- you can do anything you might want to do in PGAdmin or psql.  Joins, views, selects, deletes -- it's all on the table. Pass user parameter values in via the ```${variableName}``` syntax, or see the [pg-promise](https://github.com/vitaly-t/pg-promise) library docs.
 
-  ```sql = "SELECT * FROM flightdelays \
+  ```
+  sql = "SELECT * FROM flightdelays \
     WHERE 1=1
     AND (${origin} IS NULL or flightdelays.origin = ${origin})"
   ```
