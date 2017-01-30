@@ -133,7 +133,8 @@ That's a theme for another CLES, or Qunying's Geography 576. For now, you can us
 ## Setting up the Client
 The client can be set up as you would for any AJAX call. No special modifications are needed, you just need to know the names and data types of the values being given to the bridge data service (as you would for any API).
 
-```$.ajax("localhost:8080", {
+```
+$.ajax("localhost:8080", {
     data: {
       origin: 'PHX',
     },
@@ -146,3 +147,10 @@ The client can be set up as you would for any AJAX call. No special modification
     }
   })
 ```
+
+## Next Steps:
+1. Check out the annotated source in ```app.js```.
+2. Add a new query parameter to filter destination city.
+3. Add a new query parameter to include only those results that have more than a certain delay (in minutes).
+4. Add a new endpoint that lists the airports in the dataset and their states and cities.
+5. Add a new endpoint that summarizes the delays by airport.
