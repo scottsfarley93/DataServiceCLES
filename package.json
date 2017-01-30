@@ -1,0 +1,25 @@
+{
+  "name": "flightdataservice",
+  "version": "1.0.0",
+  "description": "A tutorial dataservice for airline delay data for use in CLES, Jan 2017",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottsfarley93/DataServiceCLES.git"
+  },
+  "author": "Scott Farley",
+  "dependencies": {
+    "express": "latest",
+    "body-parser": "latest",
+    "pg": "latest",
+    "pg-promise" : "latest"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scottsfarley93/DataServiceCLES/issues"
+  },
+  "homepage": "https://github.com/scottsfarley93/DataServiceCLES#readme"
+}
