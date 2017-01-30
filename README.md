@@ -17,13 +17,16 @@ That's a theme for another CLES, or Qunying's Geography 576. For now, you can us
 2. Follow prompts on terminal screen to initialize new application
 3. Open ```package.json``` with your favorite text editor.
 4. Add the following to include dependencies:
-  ```"dependencies": {
+
+  ```
+  "dependencies": {
     "express": "latest",
     "body-parser": "latest",
     "pg": "latest",
     "pg-promise": "latest",
   }
   ```
+  
   This installs the following libraries:
 
   - ```express```: Web framework
